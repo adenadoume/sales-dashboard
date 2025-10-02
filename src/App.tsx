@@ -72,7 +72,7 @@ function App() {
           <h1 className="text-xl md:text-2xl font-bold text-white mb-2">
             WS Πωλήσεις
           </h1>
-          <h2 className="text-sm md:text-lg font-semibold text-blue-400 mb-3 md:mb-4 px-2">
+          <h2 className="text-lg md:text-2xl font-semibold text-blue-400 mb-3 md:mb-4 px-2">
             ΠΙΤΟΥΛΗΣ ΑΕ - DOMOTEL 21JUN25
           </h2>
           <p className="text-sm md:text-lg text-gray-300 px-4">
