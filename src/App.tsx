@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { BarChart3, TrendingUp, DollarSign } from 'lucide-react';
+import { BarChart3, TrendingUp } from 'lucide-react';
 
 function App() {
   const [activeTab, setActiveTab] = useState('overview');
@@ -24,7 +24,7 @@ function App() {
     }
   };
 
-  const salesData = [
+  const salesData: [string, number, number, number, number, number][] = [
     ["ΠΕΛΑΤΗΣ ΛΙΑΝΙΚΗΣ (ΑΓΙΟΣ ΝΙΚΟΛΑΟΣ)", 1104.18, 113582.64, 45392.92, 68189.72, 60.04],
     ["ΠΙΤΟΥΛΗΣ ΑΕ", 298, 79016, 27686.33, 51329.67, 64.96],
     ["TZIMAS CONSTRUCTIONS AE", 153, 21587.09, 12167.87, 9419.22, 43.63],
