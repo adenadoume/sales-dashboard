@@ -124,15 +124,15 @@ function App() {
                 <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 md:gap-6">
                   <div className="bg-gray-900 rounded-lg p-4 transform transition-all duration-300 hover:scale-105 hover:shadow-lg hover:shadow-blue-500/30">
                     <div className="text-sm text-white mb-2">Αξία Πώλησης</div>
-                    <div className="text-3xl font-bold text-blue-400">{data.pitoulis.sales.toLocaleString('el-GR')} €</div>
+                    <div className="text-4xl font-bold text-blue-400">{data.pitoulis.sales.toLocaleString('el-GR')} €</div>
                   </div>
                   <div className="bg-gray-900 rounded-lg p-4 transform transition-all duration-300 hover:scale-105 hover:shadow-lg hover:shadow-orange-500/30">
                     <div className="text-sm text-white mb-2">Κόστος Πωληθέντων</div>
-                    <div className="text-3xl font-bold text-orange-400">{data.pitoulis.cost.toLocaleString('el-GR')} €</div>
+                    <div className="text-4xl font-bold text-orange-400">{data.pitoulis.cost.toLocaleString('el-GR')} €</div>
                   </div>
                   <div className="bg-gray-900 rounded-lg p-4 transform transition-all duration-300 hover:scale-105 hover:shadow-lg hover:shadow-green-500/30">
                     <div className="text-sm text-white mb-2">Μικτό Κέρδος</div>
-                    <div className="text-3xl font-bold text-green-400">{data.pitoulis.grossProfit.toLocaleString('el-GR')} €</div>
+                    <div className="text-4xl font-bold text-green-400">{data.pitoulis.grossProfit.toLocaleString('el-GR')} €</div>
                     <div className="text-lg text-green-300 mt-1">{data.pitoulis.grossProfitPercent}%</div>
                   </div>
                 </div>
