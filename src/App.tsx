@@ -332,7 +332,7 @@ function App() {
                     <div className="text-2xl font-bold text-emerald-400">{data.contribution.grossProfitPercent}%</div>
                   </div>
                   <div className="bg-gray-900 rounded-lg p-4 transform transition-all duration-300 hover:scale-105 hover:shadow-lg hover:shadow-yellow-500/30">
-                    <div className="text-sm text-white mb-2">Προμήθεια 5%</div>
+                    <div className="text-sm text-white mb-2">Προμήθεια 5% MK</div>
                     <div className="text-2xl font-bold text-yellow-400">{data.pitoulis.commission.toLocaleString('el-GR')} €</div>
                   </div>
                 </div>
